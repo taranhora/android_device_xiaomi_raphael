@@ -106,3 +106,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vendor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
+
+# Xtended Official
+ro.xtended.display.version=XQ-OFFICIAL-Release-v6.0
