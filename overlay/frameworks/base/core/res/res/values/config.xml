@@ -367,4 +367,10 @@
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
+   <!-- Whether device supports an alt. ambient display -->
+    <bool name="config_alt_ambient_display">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
 </resources>
