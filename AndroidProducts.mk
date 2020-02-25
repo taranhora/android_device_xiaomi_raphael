@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_raphael.mk
+    $(LOCAL_DIR)/bootleg_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_raphael-userdebug \
-    xtended_raphael-eng
+    bootleg_raphael-userdebug \
+    bootleg_raphael-eng

@@ -50,7 +50,7 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := raphael_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_SOURCE := kernel/xiaomi/raphael
-  TARGET_KERNEL_CLANG_VERSION := 6170260
+#  TARGET_KERNEL_CLANG_VERSION := 6170260
 endif
 
 # Enable real time lockscreen charging current values
