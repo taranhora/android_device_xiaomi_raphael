@@ -19,7 +19,7 @@ package org.lineageos.settings.fod;
 import android.content.Context;
 import android.os.SystemProperties;
 
-import com.android.internal.util.custom.fod.FodScreenOffHandler;
+import com.android.internal.util.bootleggers.fod.FodScreenOffHandler;
 
 public class FodScreenOffHandlerImpl implements FodScreenOffHandler {
 
