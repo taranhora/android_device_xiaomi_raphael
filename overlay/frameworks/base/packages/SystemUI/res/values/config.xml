@@ -26,4 +26,7 @@
 
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
+    <!-- Whether to show biometric help only when failed -->
+    <bool name="config_biometricHelpShowOnlyWhenFailed">true</bool>
+
 </resources>
