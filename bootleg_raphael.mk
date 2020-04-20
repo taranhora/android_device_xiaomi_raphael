@@ -16,17 +16,10 @@
 $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 
 # Inherit some common ROM stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
-
-# Official-ify
-DU_BUILD_TYPE := OFFICIAL
-
-# Setup Gapps options
-USE_GAPPS := true
-TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := du_raphael
+PRODUCT_NAME := bootleg_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_raphael.mk
+    $(LOCAL_DIR)/bootleg_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_raphael-userdebug
+    bootleg_raphael-userdebug
