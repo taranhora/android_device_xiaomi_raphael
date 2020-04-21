@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_enable_title">Anti-Flicker Mode</string>
-    <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions</string>
+   <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">DC Dimming</string>
+    <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions (Note: reduce image quality)</string>
+    <string name="dc_dimming_enable_summary_not_supported">DC Dimming is not currently supported by the kernel</string>
 
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
@@ -66,11 +66,6 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
-
-    <!-- DC dimming settings -->
-    <string name="dc_dimming_enable_title">DC Dimming</string>
-    <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions (Note: reduce image quality)</string>
-    <string name="dc_dimming_enable_summary_not_supported">DC Dimming is not currently supported by the kernel</string>
 
     <!-- Popup camera settings -->
     <string name="popup_led_title">Visual effect</string>

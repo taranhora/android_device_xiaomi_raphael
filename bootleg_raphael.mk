@@ -34,4 +34,6 @@ BUILD_FINGERPRINT := google/crosshatch/crosshatch:10/QQ2A.200405.005/6254899:use
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+BOOTLEGGERS_SITDOWN := true
+
 $(call inherit-product, vendor/MiuiCamera/config.mk)
