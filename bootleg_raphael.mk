@@ -18,6 +18,13 @@ $(call inherit-product, device/xiaomi/raphael/msmnile.mk)
 # Inherit some common ROM stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
+# Setup Gapps options
+IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_MINIMAL_APPS := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := bootleg_raphael
 PRODUCT_DEVICE := raphael
