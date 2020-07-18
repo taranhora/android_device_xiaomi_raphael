@@ -685,5 +685,5 @@
 
     <!-- Vowifi -->
     <bool name="config_hasVowifi">true</bool>
-    
+
 </resources>
