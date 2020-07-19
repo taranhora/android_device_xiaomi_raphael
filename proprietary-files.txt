@@ -167,6 +167,9 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 
 # Camera
+lib/libcameraservice.so
+lib64/libcameraservice.so
+lib64/libOpenCL.so
 vendor/bin/remosaic_daemon
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/lib/libcapiv2svacnn.so
@@ -320,6 +323,10 @@ vendor/lib64/libft2vendor.so
 vendor/lib64/libnpu.so
 vendor/lib64/mibokeh_855_opencl.bin
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 
 # Camera-arcsoft
 vendor/lib64/libarcsoft_beautyshot.so

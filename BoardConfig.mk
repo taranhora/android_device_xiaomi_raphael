@@ -40,6 +40,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 # Assert
 TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
 
+# ANXCamera
+-include vendor/ANXCamera/BoardConfigAnx.mk
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msmnile
 TARGET_NO_BOOTLOADER := true

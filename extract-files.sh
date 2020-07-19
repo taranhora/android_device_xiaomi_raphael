@@ -23,21 +23,21 @@ VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
+if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-ROOT="$MY_DIR"/../../..
+BLISS_ROOT="${MY_DIR}"/../../..
 
-HELPER="$ROOT"/vendor/bliss/build/tools/extract_utils.sh
-if [ ! -f "$HELPER" ]; then
-    echo "Unable to find helper script at $HELPER"
+HELPER="${BLISS_ROOT}"/vendor/bliss/build/tools/extract_utils.sh
+if [ ! -f "${HELPER}" ]; then
+    echo "Unable to find helper script at ${HELPER}"
     exit 1
 fi
-. "$HELPER"
+. "${HELPER}"
 
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 
-while [ "$1" != "" ]; do
+while [ "${1}" != "" ]; do
     case $1 in
         -n | --no-cleanup )     CLEAN_VENDOR=false
         ;;
@@ -51,13 +51,14 @@ while [ "$1" != "" ]; do
     shift
 done
 
-if [ -z "$SRC" ]; then
+if [ -z "${SRC}" ]; then
     SRC=adb
 fi
 
 # Initialize the helper for common device
-setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false "$CLEAN_VENDOR"
+setup_vendor "${DEVICE}" "${VENDOR}" "${BLISS_ROOT}" false "${CLEAN_VENDOR}"
 
-extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+extract "${MY_DIR}"/proprietary-files.txt "${SRC}" "${SECTION}"
 
-"$MY_DIR"/setup-makefiles.sh
+"${MY_DIR}"/setup-makefiles.sh
+
