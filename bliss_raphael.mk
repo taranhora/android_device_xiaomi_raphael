@@ -26,12 +26,7 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 PRODUCT_NAME := bliss_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 9T Pro
 PRODUCT_MANUFACTURER := Xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="raphael" \
-    TARGET_DEVICE="raphael"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
