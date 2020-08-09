@@ -32,4 +32,7 @@
 
     <!-- Custom Doze -->
     <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
 </resources>
